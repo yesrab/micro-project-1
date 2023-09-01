@@ -2,4 +2,4 @@
 
 ## Screenshots
 
-![App Screenshot](images/Screenshot.png/468x300?text=website+Screenshot)
+![App Screenshot](images/Screenshot.png)
