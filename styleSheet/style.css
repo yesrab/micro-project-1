@@ -152,6 +152,9 @@ body {
 .bottemBarLinks:visited {
   color: white;
 }
+.bottemBarLinks:link {
+  color: white;
+}
 #bottemLeftList {
   list-style: none;
   line-height: 4.5vh;
@@ -159,4 +162,30 @@ body {
   font-weight: 400;
   font-family: inter;
   color: white;
+}
+
+#bottemRight {
+  /* background-color: white; */
+  position: absolute;
+  left: 70%;
+  top: 73.48%;
+  width: 16.11%;
+  height: 19.21%;
+}
+#bottemRightList {
+  list-style: none;
+  line-height: 4.5vh;
+  font-size: 1.38vmax;
+  font-weight: 400;
+  font-family: inter;
+  color: white;
+  text-align: end;
+}
+
+#socialMediaLogo {
+  padding-right: 10px;
+}
+.logoSize {
+  width: 2.04vw;
+  height: 3.08vh;
 }
