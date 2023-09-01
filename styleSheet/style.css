@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+#brown {
+  background-color: #ffcd9e;
+  height: 66.5vh;
+  width: 100vw;
+  display: flex;
+}
+#black {
+  background-color: #282828;
+  margin-top: 0px;
+  height: 35.4vh;
+  width: 100vw;
+  display: flex;
+}
+
+#topLeftBlock {
+  /* background-color: aqua; */
+  height: 60.6vh;
+  /*width: 49.4vw;*/
+  width: 52.67vw;
+}
+#topRightBlock {
+  /* background-color: brown; */
+  /*padding-left: 3.27%;*/
+  width: 39.9vw;
+  height: 66.8vh;
+}
+#manImg {
+  width: 39.9vw;
+  height: 66.8vh;
+  padding-left: 7.36vw;
+}
+#topLeftText {
+  font-size: 2.5vmax;
+  margin-top: 9.32%;
+  margin-left: 9.4%;
+  width: 39.02vw;
+  height: 12.1vh;
+  line-height: 6.06vh;
+  font-family: inter;
+  font-weight: 700;
+}
+#midLeftText {
+  font-size: 1.38vmax;
+  padding-top: 3.14%;
+  margin-left: 9.4%;
+  width: 36.37vw;
+  height: 9.1vh;
+  line-height: 3.59vh;
+  font-family: inter;
+  font-weight: 500;
+}
+
+#midLeftTextSecond {
+  font-size: 1.38vmax;
+  padding-top: 5.7%;
+  margin-left: 9.4%;
+  width: 15.76vw;
+  height: 9.1vh;
+  line-height: 3.59vh;
+  font-family: inter;
+  font-weight: 800;
+}
+
+#interactionBox {
+  /* background-color: cadetblue; */
+  margin-left: 9.4%;
+  width: 40vw;
+  height: 7.19vh;
+  align-items: center;
+  display: flex;
+}
+#emailInput {
+  width: 59.72%;
+  font-size: 1.38vw;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  border-color: #000000;
+  border-radius: 0.5vw;
+  color: #888888;
+  font-family: inter;
+  font-weight: 600;
+}
+#registerButton {
+  margin-left: 1.11vw;
+  height: 100%;
+  border: none;
+  width: 37.5%;
+  color: #ffffff;
+  background-color: #000000;
+  line-height: 4.2%;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 1.38vw;
+  border-radius: 0.5vw;
+}
+
+#dataSpam {
+  color: #ffffff;
+
+  text-align: center;
+  font-size: 1.11vmax;
+  padding-top: 2%;
+  margin-left: 9.3%;
+  width: 23.8vw;
+  height: 6.85vh;
+  line-height: 2.87vh;
+  font-family: inter;
+  font-weight: 800;
+}
+/* #emailInput::placeholder {
+  padding-left: 1.52vw;
+} */
+
+/* Bottem black foot section from here */
+/* #bottemLeft {
+  background-color: white;
+  font-size: 1.38vmax;
+  margin-top: 1%;
+  margin-left: 13.26vw;
+  width: 16.38vw;
+  height: 2.22vh;
+  line-height: 6.06vh;
+  font-family: inter;
+  font-weight: 400;
+  color: black;
+} */
+
+#bottemLeft {
+  /* background-color: white; */
+  font-size: 1.38vmax;
+  position: absolute; /* Use absolute positioning */
+  left: 13.23%; /* 13.23% from the left */
+  top: 73.4%; /* 73.4% from the top */
+  width: 16.38%; /* 16.38% of the screen width */
+  height: 20.22%; /* 20.22% of the screen height */
+  line-height: 6.06vh;
+  font-family: inter;
+  font-weight: 400;
+}
+.bottemBarLinks {
+  text-decoration: none;
+}
+.bottemBarLinks:visited {
+  color: white;
+}
+#bottemLeftList {
+  list-style: none;
+  line-height: 4.5vh;
+  font-size: 1.38vmax;
+  font-weight: 400;
+  font-family: inter;
+  color: white;
+}
