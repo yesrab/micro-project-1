@@ -18,18 +18,17 @@
           Our team scouts the internet for the best designs, illustrations and
           art and delivers a truly inspiring one every day to your inbox
         </p>
-        <p id="midLeftTextSecond">Show me how it looks</p>
-        <div id="interactionBox">
+        <!-- <p id="midLeftTextSecond">Show me how it looks</p> -->
+        <p id="thankYouBox">Thank You!</p>
+        <!-- <div id="interactionBox">
           <input
             id="emailInput"
             type="email"
             placeholder="Your e-mail address"
           />
-          <button id="registerButton" type="submit">Register Now</button>
-        </div>
-        <p id="dataSpam" style="text-align: center">
-          Free - No Spam - No Data Sharing
-        </p>
+          <button id="registerButton">Register Now</button>
+        </div> -->
+        <p id="dataSpam">Free - No Spam - No Data Sharing</p>
       </div>
       <div id="topRightBlock">
         <img id="manImg" src="images/dweepio1.svg" />
@@ -65,15 +64,4 @@
       </div>
     </div>
   </body>
-  <script type="text/javascript">
-    document.getElementById("registerButton").onclick = function () {
-      let x = document.getElementById("emailInput").value;
-      if (x) {
-        location.href = "Thankyou.html";
-      } else {
-        alert("please enter your email address");
-      }
-      document.getElementById("dataSpam").style.textAlign = "start";
-    };
-  </script>
 </html>

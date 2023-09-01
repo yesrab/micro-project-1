@@ -43,7 +43,7 @@ body {
   margin-left: 9.4%;
   width: 39.02vw;
   height: 12.1vh;
-  line-height: 6.06vh;
+  line-height: 6.5vh;
   font-family: inter;
   font-weight: 700;
 }
@@ -88,6 +88,7 @@ body {
   color: #888888;
   font-family: inter;
   font-weight: 600;
+  border-width: 3px;
 }
 #registerButton {
   margin-left: 1.11vw;
@@ -101,12 +102,12 @@ body {
   font-weight: 700;
   font-size: 1.38vw;
   border-radius: 0.5vw;
+  cursor: pointer;
 }
 
 #dataSpam {
   color: #ffffff;
 
-  text-align: center;
   font-size: 1.11vmax;
   padding-top: 2%;
   margin-left: 9.3%;
@@ -116,23 +117,6 @@ body {
   font-family: inter;
   font-weight: 800;
 }
-/* #emailInput::placeholder {
-  padding-left: 1.52vw;
-} */
-
-/* Bottem black foot section from here */
-/* #bottemLeft {
-  background-color: white;
-  font-size: 1.38vmax;
-  margin-top: 1%;
-  margin-left: 13.26vw;
-  width: 16.38vw;
-  height: 2.22vh;
-  line-height: 6.06vh;
-  font-family: inter;
-  font-weight: 400;
-  color: black;
-} */
 
 #bottemLeft {
   /* background-color: white; */
@@ -188,4 +172,16 @@ body {
 .logoSize {
   width: 2.04vw;
   height: 3.08vh;
+}
+/* Thank you page*/
+
+#thankYouBox {
+  font-size: 2.88vmax;
+  padding-top: 5.7%;
+  margin-left: 9.4%;
+  width: 16vw;
+  height: 6.96vh;
+  line-height: 6.99vh;
+  font-family: inter;
+  font-weight: 700;
 }
