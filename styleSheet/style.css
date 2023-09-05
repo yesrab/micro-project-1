@@ -295,9 +295,9 @@ body {
 
   #bottemLeft {
     padding-top: 5%;
+    padding-bottom: 0%;
     align-items: center;
     position: static;
-    font-size: 0.75em;
     width: 100%;
     height: 45%;
   }
@@ -311,8 +311,8 @@ body {
   }
   #bottemRight {
     position: static;
+    padding-left: 0%;
     padding-bottom: 5%;
-    font-size: 0.75em;
     width: 100%;
     height: 45%;
   }
