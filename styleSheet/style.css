@@ -11,8 +11,6 @@ body {
   height: 66.5vh;
   width: 100vw;
   display: flex;
-
-  flex-flow: row wrap;
 }
 #black {
   background-color: #282828;
@@ -23,14 +21,10 @@ body {
 }
 
 #topLeftBlock {
-  /* background-color: aqua; */
   height: 60.6vh;
-  /*width: 49.4vw;*/
   width: 52.67vw;
 }
 #topRightBlock {
-  /* background-color: brown; */
-  /*padding-left: 3.27%;*/
   width: 39.9vw;
   height: 66.8vh;
 }
@@ -41,8 +35,7 @@ body {
 }
 #topLeftText {
   font-size: 2.5vw;
-  margin-top: 9.32%;
-  margin-left: 9.4%;
+  margin: 9.32% 0% 0% 9.4%;
   width: 39.02vw;
   height: 12.1vh;
   line-height: 6.5vmin;
@@ -51,7 +44,7 @@ body {
 }
 #midLeftText {
   font-size: 1.38vw;
-  padding-top: 3.14%;
+  padding: 3.14% 0% 0% 0%;
   margin-left: 9.4%;
   width: 36.37vw;
   height: 9.1vh;
@@ -72,7 +65,6 @@ body {
 }
 
 #interactionBox {
-  /* background-color: cadetblue; */
   margin-left: 9.4%;
   width: 40vw;
   height: 7.19vh;
@@ -121,7 +113,6 @@ body {
 }
 
 #bottemLeft {
-  /* background-color: white; */
   font-size: 1.38vmax;
   position: absolute;
   left: 13.23%;
@@ -132,15 +123,7 @@ body {
   font-family: inter;
   font-weight: 400;
 }
-.bottemBarLinks {
-  text-decoration: none;
-}
-.bottemBarLinks:visited {
-  color: white;
-}
-.bottemBarLinks:link {
-  color: white;
-}
+
 #bottemLeftList {
   list-style: none;
   line-height: 4.5vh;
@@ -151,7 +134,6 @@ body {
 }
 
 #bottemRight {
-  /* background-color: white; */
   position: absolute;
   left: 70%;
   top: 73.48%;
@@ -175,6 +157,15 @@ body {
   width: 2.04vw;
   height: 3.08vh;
 }
+.bottemBarLinks {
+  text-decoration: none;
+}
+.bottemBarLinks:visited {
+  color: white;
+}
+.bottemBarLinks:link {
+  color: white;
+}
 /* Thank you page*/
 
 #thankYouBox {
@@ -186,4 +177,187 @@ body {
   line-height: 6.99vh;
   font-family: inter;
   font-weight: 700;
+}
+
+/* for mobile devices */
+@media only screen and (max-width: 480px) {
+  #brown {
+    background-color: #ffcd9e;
+    height: 66.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #black {
+    background-color: #282828;
+    margin-top: 0px;
+    height: 35.4vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #topLeftBlock {
+    /* background-color: aqua; */
+    height: 44.15%;
+    width: 100%;
+  }
+  #topRightBlock {
+    /* background-color: brown; */
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #manImg {
+    width: 90%;
+    height: 90%;
+    padding-left: 0;
+  }
+  #topLeftText {
+    text-align: center;
+    font-size: 1em;
+    margin: 10% 0%;
+    width: 100%;
+    height: 12.1%;
+    line-height: 6.5vmin;
+    font-family: inter;
+    font-weight: 700;
+  }
+  #midLeftText {
+    text-align: justify;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    font-size: 0.75em;
+    padding: 0 1% 0 1%;
+    margin-left: 0%;
+    width: 100%;
+    height: 20%;
+    line-height: 3.59vmin;
+    font-family: inter;
+    font-weight: 500;
+  }
+  #midLeftTextSecond {
+    /* show me how it look */
+    text-align: center;
+    font-size: 0.55em;
+    padding-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+    height: 10%;
+    line-height: 3.59vmin;
+    font-family: inter;
+    font-weight: 800;
+  }
+  #interactionBox {
+    margin-left: 0%;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  #emailInput {
+    width: 45%;
+    font-size: 0.55em;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    border-color: #000000;
+    border-radius: 0.5vw;
+    color: #888888;
+    font-family: inter;
+    font-weight: 600;
+    border-width: 2px;
+  }
+  #registerButton {
+    height: 100%;
+    border: none;
+    width: 25%;
+    margin-left: 2%;
+    color: #ffffff;
+    background-color: #000000;
+    line-height: 4.2%;
+    font-family: inter;
+    font-weight: 700;
+    font-size: 0.55em;
+    border-radius: 0.5vw;
+    cursor: pointer;
+  }
+
+  #dataSpam {
+    color: #ffffff;
+    font-size: 0.65em;
+    padding-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+    height: auto;
+    line-height: 2.87vh;
+    font-family: inter;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  #bottemLeft {
+    padding-top: 5%;
+    align-items: center;
+    position: static;
+    font-size: 0.75em;
+    width: 100%;
+    height: 45%;
+  }
+  #bottemLeftList {
+    list-style: none;
+    line-height: 3vh;
+    font-size: 1em;
+    font-weight: 400;
+    padding-left: 5%;
+    font-family: inter;
+  }
+  #bottemRight {
+    position: static;
+    font-size: 0.75em;
+    width: 100%;
+    height: 45%;
+  }
+  #bottemRightList {
+    list-style: none;
+    line-height: 3vh;
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    padding-left: 5%;
+    font-family: inter;
+    text-align: start;
+  }
+  .bottemBarLinks {
+    text-decoration: none;
+  }
+  .bottemBarLinks:visited {
+    color: white;
+  }
+  .bottemBarLinks:link {
+    color: white;
+  }
+
+  #socialMediaLogo {
+    padding-right: 10px;
+  }
+  .logoSize {
+    width: 5%;
+    height: 6%;
+  }
+
+  #thankYouBox {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+    height: 6.96vh;
+    line-height: 6.99vh;
+    font-family: inter;
+    font-weight: 700;
+  }
 }
