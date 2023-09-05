@@ -115,13 +115,9 @@ body {
 }
 
 #bottemLeft {
-  font-size: 1.38vmax;
-  padding-top: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
   width: 16.38%;
-  height: 100%;
-  line-height: 6.06vh;
-  font-family: inter;
-  font-weight: 400;
 }
 
 #bottemLeftList {
@@ -134,9 +130,9 @@ body {
 }
 
 #bottemRight {
-  padding-top: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
   width: 16.11%;
-  height: 100%;
 }
 #bottemRightList {
   list-style: none;
