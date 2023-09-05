@@ -317,6 +317,7 @@ body {
   }
   #bottemRight {
     position: static;
+    padding-bottom: 5%;
     font-size: 0.75em;
     width: 100%;
     height: 45%;
@@ -328,6 +329,7 @@ body {
     font-weight: 400;
     color: white;
     padding-left: 5%;
+
     font-family: inter;
     text-align: start;
   }
